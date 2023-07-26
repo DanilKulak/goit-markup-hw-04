@@ -165,6 +165,7 @@ img {
   text-align: center;
 }
 .text-btn {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   margin: 48px auto 0;
   min-width: 169px;
@@ -187,6 +188,7 @@ img {
   margin-bottom: 72px;
 }
 .btn-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -313,6 +315,9 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/people-office\ 1.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .section-two {
   background: #fff;
@@ -359,48 +364,4 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-/* ==========================================
-Single-colored icons can be modified like so:
-.icon-name {
-  font-size: 32px;
-  color: red;
-}
-========================================== */
-
-.icon-Logo-4 {
-  width: 1.857421875em;
-}
-
-.icon-Logo-3 {
-  width: 1.857421875em;
-}
-
-.icon-Vector-1 {
-  width: 1.111328125em;
-}
-
-.icon-Logo-2 {
-  width: 1.857421875em;
-}
-
-.icon-Logo-1 {
-  width: 1.857421875em;
-}
-
-.icon-Logo {
-  width: 1.857421875em;
-}
-
-.icon-Vector {
-  width: 0.9375em;
 }
