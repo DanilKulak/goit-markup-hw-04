@@ -90,6 +90,8 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   background-color: var(--white, #fff);
+  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header .container {
   display: flex;
@@ -366,9 +368,39 @@ img {
   stroke: currentColor;
   fill: currentColor;
 }
+
 /* ==========================================
+Single-colored icons can be modified like so:
 .icon-name {
   font-size: 32px;
   color: red;
 }
 ========================================== */
+
+.icon-Logo-4 {
+  width: 1.857421875em;
+}
+
+.icon-Logo-3 {
+  width: 1.857421875em;
+}
+
+.icon-Vector-1 {
+  width: 1.111328125em;
+}
+
+.icon-Logo-2 {
+  width: 1.857421875em;
+}
+
+.icon-Logo-1 {
+  width: 1.857421875em;
+}
+
+.icon-Logo {
+  width: 1.857421875em;
+}
+
+.icon-Vector {
+  width: 0.9375em;
+}
