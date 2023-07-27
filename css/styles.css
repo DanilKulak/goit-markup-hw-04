@@ -90,13 +90,27 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   background-color: var(--white, #fff);
-  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.current {
+  position: relative;
+  color: #404bbf;
+}
+.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
   font-style: normal;
@@ -146,6 +160,7 @@ img {
 .header-item {
   display: inline-block;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover,
 .link:focus {
@@ -181,6 +196,7 @@ img {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
 }
+
 .btn-list {
   display: flex;
   justify-content: center;
@@ -306,7 +322,7 @@ img {
 
 /* ---------Section----------- */
 .section-one {
-  background: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue, #2e2f42);
   padding: 188px 0;
   background-image: url(/images/people-office\ 1.jpg);
   background-size: cover;
@@ -318,6 +334,7 @@ img {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
 }
 .section-two {
   background: #fff;
