@@ -61,7 +61,14 @@
       <section class="section-one">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="text-btn">Order Service</button>
+          <button
+            type="button"
+            class="text-btn"
+            class="header-button"
+            data-modal-open
+          >
+            Order Service
+          </button>
         </div>
       </section>
       <!-- Section-2 -->
@@ -301,6 +308,7 @@
           </ul>
         </div>
       </section>
+      <!-- ---Section-5 ---- -->
       <section class="section-five">
         <div class="container">
           <h2 class="title-five">Customers</h2>
@@ -329,7 +337,7 @@
             <li class="clients-item">
               <a class="clients-link" href="">
                 <svg width="104" height="56" class="svg-clients">
-                  <use href="/images/icons.svg#icon-Vector-1"></use>
+                  <use href="/images/icons.svg#icon-Client-4"></use>
                 </svg>
               </a>
             </li>
@@ -393,6 +401,15 @@
         </div>
       </div>
     </footer>
+    <div data-modal class="container-modal" class="is-hidden">
+      <div class="modal-window">
+        <button type="button" data-modal-close class="btn-modal">
+          <svg class="svg-modal" width="8" height="8">
+            <use href="/images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
