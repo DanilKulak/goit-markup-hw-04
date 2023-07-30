@@ -322,6 +322,8 @@ button {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover {
   border-color: #404bbf;
@@ -397,6 +399,9 @@ button {
 .portfolio-cards:hover .text-new-portfolio {
   transform: translateY(0);
 }
+.portfolio-cards:focus .text-new-portfolio {
+  transform: translateY(0);
+}
 /* ----ICONS---- */
 .icon {
   display: flex;
@@ -417,6 +422,7 @@ button {
   height: 40px;
 }
 .icon-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -441,13 +447,13 @@ button {
 .section-one {
   background-color: var(--navyblue, #2e2f42);
   padding: 188px 0;
-  background-image: url(/images/people-office\ 1.jpg);
+  background-image: url(../images/office-hero.jpg);
   background-size: cover;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office\ 1.jpg);
+    url(../images/office-hero.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -533,6 +539,7 @@ button {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover {
   background-color: #31d0aa;
@@ -592,17 +599,13 @@ button {
 .btn-modal:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .btn-modal:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .svg-modal {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.svg-modal:hover {
-  fill: #ffffff;
-}
-.svg-modal:focus {
-  fill: #ffffff;
 }
