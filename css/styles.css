@@ -73,8 +73,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-/* DIV */
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -111,6 +109,7 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  width: 100%;
 }
 .address {
   font-style: normal;
@@ -146,6 +145,7 @@ img {
 .header-menu-item {
   color: var(--navyblue, #2e2f42);
   font-family: var(--font-primary);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -442,6 +442,9 @@ button {
 }
 .svg-clients {
   fill: currentColor;
+}
+.clients-link:hover .svg-clients {
+fill: #8e8f99;
 }
 /* ---------Section----------- */
 .section-one {
